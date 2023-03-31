@@ -3,6 +3,6 @@
 """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """Retuns a float"""
-    return n
+    return int(n)
