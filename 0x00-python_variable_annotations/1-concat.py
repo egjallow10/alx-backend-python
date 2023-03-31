@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""
-Concat two strings 
+"""Function that concat two strings 
 """
 
 
