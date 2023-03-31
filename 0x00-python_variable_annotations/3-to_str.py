@@ -1,4 +1,4 @@
-#!/usr/bin/
+#!/usr/bin/env python3
 """Function that takes in float and retun str"""
 
 
