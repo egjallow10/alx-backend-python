@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 """_summary_
-
-    Returns:
-        _type_: _description_
-        return the list of all the delays (float values)
+return the list of all the delays (float values)
 """
+
 
 import asyncio
 from typing import List
