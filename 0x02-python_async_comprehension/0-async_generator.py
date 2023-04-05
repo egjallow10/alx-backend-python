@@ -3,7 +3,7 @@
     Yields:
         _type_: _description_
         The coroutine will loop 10 times,
-        each time asynchronously wait 1 second, then yield a random number 
+        each time asynchronously wait 1 second, then yield a random number
     """
 
 
