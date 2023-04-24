@@ -20,3 +20,10 @@ class TestAccessNestedMap(unittest.TestCase):
         """to this function, and it will return the value"""
         result = access_nested_map(nested_map, path)
         self.assertEqual(result, expected_result)
+
+      def test_access_nested_map_raises_exception(self):
+        """ raises exception"""
+        with self.assertRaises(KeyError):
+            nested_map = {"a": {"b": {"c": 1}}}
+            access_nested_map(nested_map, ["a", "b", "d"])
+   
