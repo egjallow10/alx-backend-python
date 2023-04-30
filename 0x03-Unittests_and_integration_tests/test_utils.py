@@ -25,7 +25,6 @@ class TestAccessNestedMap(unittest.TestCase):
         ({}, ['a']),
         ({'a': 1}, ['a', 'b'])
     ])
-    def test_access_nested_map_exception(
-            self, nested_map, path, expected_result):
+    def test_access_nested_map_exception(self, nested_map, expected_result):
         """Exptional Error"""
         self.assertRaises(KeyError)
